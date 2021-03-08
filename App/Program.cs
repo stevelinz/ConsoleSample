@@ -10,6 +10,7 @@ namespace App
         {
             var dictionary = new Dictionary<string, string>() {{"message", "Hello World!"}};
             var serialized = JsonConvert.SerializeObject(dictionary);
+            System.Console.WriteLine("Add by me");
             Console.WriteLine(serialized);
         }
     }
